@@ -49,3 +49,4 @@ minikube service flask-service -n flask-cicd --url
 ## A note on secrets
 
 Credentials for the CI/CD pipeline (Docker Hub login, EC2 SSH key, EC2 host) live in GitHub Actions Secrets, not in this repo. `terraform.tfstate` and any `.env` files are gitignored. The Kubernetes Secret for Grafana is excluded too - only a placeholder template is committed.
+# trigger
