@@ -12,7 +12,7 @@ def home():
     return jsonify({
         "message": "Hello from Romil's CI/CD Pipeline!",
         "status": "ok",
-        "version": "2.0"
+        "version": "3.0"
     })
 
 @app.route("/health")
